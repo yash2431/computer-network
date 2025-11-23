@@ -1,0 +1,10 @@
+enable
+configure terminal
+vlan 10
+name btech
+exit
+
+switchport mode access
+switchport mode trunk
+switchport access vlan10
+interface range fa0/1
